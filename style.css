@@ -1,0 +1,91 @@
+*{
+  font-family: 'Overpass', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(216, 12%, 8%);
+}
+.rating, .thanks{
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 100px auto;
+  padding: 30px;
+}
+.star{
+  padding: 10px;
+  background-color: hsla(216, 12%, 54%, 0.1);
+  border-radius: 50%;
+  align-self: start;
+}
+h1{
+  color: white;
+}
+p{
+  color: hsl(217, 12%, 63%);
+}
+.numbers{
+  display: flex;
+  gap: 20px;
+}
+h2{
+  width: 40px;
+  height: 40px;
+  color: hsl(217, 12%, 63%);
+  font-weight: 400;
+  background-color: hsla(216, 12%, 54%, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h2:hover{
+  background-color: hsl(217, 12%, 63%);
+  color: white;
+  cursor: pointer;
+}
+h2:active{
+  background-color: hsl(25, 97%, 53%);
+}
+button{
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  border: 0;
+}
+button:hover{
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+  cursor: pointer;
+}
+
+.thanks{
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.result{
+  color: hsl(25, 97%, 53%);
+  background-color: hsla(216, 12%, 54%, 0.2);
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-weight: 400;
+  font-size: 15px;
+}
+.thanks p{
+  text-align: center;
+}
+
+.display-none{
+  display: none;
+}
